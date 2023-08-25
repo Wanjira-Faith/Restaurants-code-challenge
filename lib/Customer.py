@@ -6,7 +6,10 @@ class Customer:
         self.family_name = family_name
         Customer.all_customers.append(self)
 
-    def given_name(self,name):
-        self.given_name = name
+    def given_name(self):
+        return self.given_name
+
+    def family_name(self):
+        return self.family_name   
 
         
