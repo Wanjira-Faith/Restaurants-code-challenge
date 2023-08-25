@@ -13,3 +13,10 @@ restaurant2 = Restaurant("Delicious Eatery")
 customer1.add_review(restaurant1, 7)
 customer1.add_review(restaurant2, 5)
 customer2.add_review(restaurant1, 4)
+
+# Test sample instances
+print("----------Testing methods--------")
+print("")
+
+
+
