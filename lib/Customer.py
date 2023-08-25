@@ -17,4 +17,5 @@ class Customer:
 
     def restaurants(self):
         return list({review.restaurant for review in self.reviews})
-        
+
+    
