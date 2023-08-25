@@ -11,5 +11,8 @@ class Customer:
 
     def family_name(self):
         return self.family_name   
+    
+    def full_name(self):
+        return self.given_name + " " + self.family_name
 
         
