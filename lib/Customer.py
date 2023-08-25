@@ -34,3 +34,11 @@ class Customer:
             if customer.full_name() == name:
                 return customer
         return None
+    
+    @classmethod
+    def find_all_by_given(cls, name):
+        customers = []
+        for customer in cls.all_customers:
+            if customer.given_name() == name:
+                customers.append(customer)
+        return customers
