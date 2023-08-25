@@ -6,4 +6,7 @@ class Restaurant:
         self.reviews = []
         Restaurant.all_restaurants.append(self)
 
+    def add_review(self,review):
+            self.reviews.append(review)
+
 
