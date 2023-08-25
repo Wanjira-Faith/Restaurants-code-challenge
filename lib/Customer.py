@@ -25,3 +25,5 @@ class Customer:
         self.reviews.append(review)
         restaurant.add_review(review)
     
+    def num_reviews(self):
+        return len(self.reviews)
