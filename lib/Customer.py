@@ -15,4 +15,6 @@ class Customer:
     def full_name(self):
         return self.given_name + " " + self.family_name
 
+    def restaurants(self):
+        return list({review.restaurant for review in self.reviews})
         
