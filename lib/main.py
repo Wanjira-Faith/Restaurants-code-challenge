@@ -34,6 +34,8 @@ print("Customers who reviewed Restaurant 1:")
 print([customer.full_name() for customer in restaurant1.customers()])
 print("-------------------------------")
 
+print("Number of reviews by Customer 1:")
+print(Customer.num_reviews(customer1))
 
 
 
