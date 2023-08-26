@@ -32,7 +32,7 @@ print("Customers who reviewed Restaurant 1:")
 print([customer.full_name() for customer in restaurant1.customers()])
 print("-------------------------------")
 
-print("Customer 1 reviewed restaurants:")
+print("Restaurants reviewed by Customer 1:")
 print([restaurant.name for restaurant in customer1.restaurants()])
 print("-------------------------------")
 
@@ -48,7 +48,7 @@ print("Finding customers by given name 'Linda':")
 print([customer.full_name() for customer in Customer.find_all_by_given("Linda")])
 print("-------------------------------")
 
-print("Average start rating for Restaurant 1:")
+print("Average star rating for Restaurant 1:")
 print(restaurant1.average_star_rating())
 print("-------------------------------")
 
