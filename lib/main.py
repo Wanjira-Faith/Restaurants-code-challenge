@@ -46,4 +46,7 @@ print("Finding customers by given name 'Linda':")
 print([customer.full_name() for customer in Customer.find_all_by_given("Linda")])
 print("-------------------------------")
 
+print("Average start rating for Restaurant 1:")
+print(restaurant1.average_star_rating())
+print("-------------------------------")
 
