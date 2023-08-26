@@ -21,3 +21,6 @@ class Review:
     def __str__(self):
         return f"Review: {self.customer.full_name()} rated {self.rating} stars"
 
+    @classmethod
+    def all(cls):
+        return cls.all_reviews
