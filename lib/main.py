@@ -25,8 +25,8 @@ print("-------------------------------")
 
 print("Reviews for Restaurant 1:")
 for review in restaurant1.reviews:
-    print(f"Rating: {review.rating}, Customer: {review.customer.full_name()}")
-    print("--------------------------------------------------------")
+   print(str(review))
+   print("--------------------------------------------------------")
 
 print("Customer 1 reviewed restaurants:")
 print([restaurant.name for restaurant in customer1.restaurants()])
