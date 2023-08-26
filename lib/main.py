@@ -36,6 +36,7 @@ print("-------------------------------")
 
 print("Number of reviews by Customer 1:")
 print(Customer.num_reviews(customer1))
+print("-------------------------------")
 
 
 
