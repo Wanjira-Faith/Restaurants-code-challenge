@@ -26,7 +26,9 @@ print("Customer 1 reviewed restaurants:")
 print([restaurant.name for restaurant in customer1.restaurants()])
 print("-------------------------------")
 
-
+print("Ratings for Restaurant 1:")
+print([review.rating for review in restaurant1.reviews])
+print("-------------------------------")
 
 
 
