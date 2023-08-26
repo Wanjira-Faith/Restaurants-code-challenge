@@ -17,3 +17,7 @@ class Review:
     @property
     def restaurant(self):
         return self._restaurant
+    
+    def __str__(self):
+        return f"Review: {self.customer.full_name()} rated {self.rating} stars"
+
