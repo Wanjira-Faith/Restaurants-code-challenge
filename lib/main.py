@@ -18,5 +18,15 @@ customer2.add_review(restaurant1, 4)
 print("----------Testing methods--------")
 print("")
 
+print("Customer 1 full name:")
+print(customer1.full_name())  
+print("-------------------------------")
+
+print("Customer 1 reviewed restaurants:")
+print([restaurant.name for restaurant in customer1.restaurants()])
+print("-------------------------------")
+
+
+
 
 
