@@ -1,5 +1,6 @@
 from Customer import Customer
 from Restaurant import Restaurant
+from Review import Review
 
 # create customers
 customer1 = Customer("Linda", "Wambui")
@@ -21,6 +22,11 @@ print("")
 print("Customer 1 full name:")
 print(customer1.full_name())  
 print("-------------------------------")
+
+print("Reviews for Restaurant 1:")
+for review in restaurant1.reviews:
+    print(f"Rating: {review.rating}, Customer: {review.customer.full_name()}")
+    print("--------------------------------------------------------")
 
 print("Customer 1 reviewed restaurants:")
 print([restaurant.name for restaurant in customer1.restaurants()])
