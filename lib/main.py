@@ -28,13 +28,12 @@ for review in restaurant1.reviews:
    print(str(review))
    print("--------------------------------------------------------")
 
-print("Customer 1 reviewed restaurants:")
-print([restaurant.name for restaurant in customer1.restaurants()])
-print("-------------------------------")
-
-
 print("Customers who reviewed Restaurant 1:")
 print([customer.full_name() for customer in restaurant1.customers()])
+print("-------------------------------")
+
+print("Customer 1 reviewed restaurants:")
+print([restaurant.name for restaurant in customer1.restaurants()])
 print("-------------------------------")
 
 print("Number of reviews by Customer 1:")
