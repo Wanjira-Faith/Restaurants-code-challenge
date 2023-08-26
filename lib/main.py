@@ -38,5 +38,9 @@ print("Number of reviews by Customer 1:")
 print(Customer.num_reviews(customer1))
 print("-------------------------------")
 
+print("Finding customer by name 'Ali Malik':")
+print(Customer.find_by_name("Ali Malik").full_name())
+print("-------------------------------")
+
 
 
