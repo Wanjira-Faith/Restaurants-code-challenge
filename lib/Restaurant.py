@@ -12,10 +12,10 @@ class Restaurant:
     def customers(self):
             return list({review.customer for review in self.reviews})
 
-    def avarage_star_rating(self):  
+    def average_star_rating(self):  
           if len(self.reviews) == 0:
               return 0
-          return sum(review.star_rating for review in self.reviews) / len(self.reviews)
+          return sum(review.rating for review in self.reviews) / len(self.reviews)
        
 
 
