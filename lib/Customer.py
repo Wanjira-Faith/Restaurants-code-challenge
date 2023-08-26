@@ -31,7 +31,7 @@ class Customer:
         return None
     
     @classmethod
-    def find_all_by_given(cls, name):
+    def find_all_by_given_name(cls, name):
         customers = []
         for customer in cls.all_customers:
             if customer.given_name == name:
