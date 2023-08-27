@@ -79,3 +79,5 @@ This is a Python application designed to manage restaurant reviews from customer
 # Author
 Wanjira Faith
 
+# License
+This project is licensed under the MIT License.
