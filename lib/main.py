@@ -1,6 +1,6 @@
 from Customer import Customer
 from Restaurant import Restaurant
-from Review import Review
+
 
 # create customers
 customer1 = Customer("Linda", "Wambui")
@@ -19,14 +19,8 @@ customer2.add_review(restaurant1, 4)
 print("----------Testing methods--------")
 print("")
 
-print("Customer 1 full name:")
-print(customer1.full_name())  
+print("Customer 1 full name: " + customer1.full_name())
 print("-------------------------------")
-
-print("Reviews for Restaurant 1:")
-for review in restaurant1.reviews:
-   print(str(review))
-   print("--------------------------------------------------------")
 
 print("Customers who reviewed Restaurant 1:")
 print([customer.full_name() for customer in restaurant1.customers()])
@@ -52,3 +46,6 @@ print("Average star rating for Restaurant 1:")
 print(restaurant1.average_star_rating())
 print("-------------------------------")
 
+print("Reviews for Restaurant 1:")
+for review in restaurant1.reviews:
+   print(str(review))
