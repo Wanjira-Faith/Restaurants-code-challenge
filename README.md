@@ -26,7 +26,7 @@ This is a Python application designed to manage restaurant reviews from customer
   - returns the full name of the customer, with the given name and the family name concatenated, Western style.
 - `Customer all()`
   - returns **all** of the customer instances
-* Restaurant
+# Restaurant
 - `Restaurant __init__()`
   - Restaurants should be initialized with a name, as a string
 - `Restaurant name()`
@@ -41,26 +41,26 @@ This is a Python application designed to manage restaurant reviews from customer
 - `Review all()`
   - returns all of the reviews
 # Object Relationship Methods
-* Review
+#  Review
 - `Review customer()`
   - returns the customer object for that review
   - Once a review is created, should not be able to change the customer
 - `Review restaurant()`
   - returns the restaurant object for that given review
   - Once a review is created, should not be able to change the restaurant
-* Restaurant
+# Restaurant
 - `Restaurant reviews()`
   - returns a list of all reviews for that restaurant
 - `Restaurant customers()`
   - Returns a **unique** list of all customers who have reviewed a particular restaurant.
-* Customer
+# Customer
 - `Customer restaurants()`
   - Returns a **unique** list of all restaurants a customer has reviewed
 - `Customer add_review(restaurant, rating)`
   - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
  
 # Aggregate and Association Methods
-* Customer
+# Customer
 - `Customer num_reviews()`
   - Returns the total number of reviews that a customer has authored
 - `Customer find_by_name(name)` class method
@@ -68,7 +68,7 @@ This is a Python application designed to manage restaurant reviews from customer
 - `Customer find_all_by_given_name(name)` class method
   - given a string of a given name, returns an **list** containing all customers with that given name
  
-* Restaurant
+# Restaurant
 - `Restaurant average_star_rating()`
   - returns the average star rating for a restaurant based on its reviews
   - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings.
